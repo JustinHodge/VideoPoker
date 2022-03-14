@@ -15,6 +15,7 @@ namespace VideoPoker
         {
             player = new Player();
             deck = new Deck();
+            Console.ReadLine();
         }
 
         public Card drawFromDeck()

@@ -15,6 +15,10 @@ namespace VideoPoker
             this.suit = suit;
             this.value = value;
         }
+
+        public override string ToString()
+        {
+            return this.value.ToString() + " of " + this.suit + "s";
+        }
     }
 }
- 
